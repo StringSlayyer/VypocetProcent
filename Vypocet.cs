@@ -21,12 +21,9 @@ namespace ConsoleApp1
             Console.WriteLine("Procento chybejicich hodin ted je: " + Procento(chybelHodin, celkemHodin) + "%.");
             chybelHodin++;
             celkemHodin++;
-            Console.WriteLine("Procento zitra: " + Procento(chybelHodin, celkemHodin));
-            Console.WriteLine("zbyva " + zbyvaHodin);
             if(zbyvaHodin> 1) { 
             celkemHodin += zbyvaHodin - 1;
             }
-            Console.WriteLine("promenne po pricteni nepricetni" + chybelHodin + " " + celkemHodin);
             Console.WriteLine("Procento chybejicich hodin ted bude: " + Procento(chybelHodin, celkemHodin) + "%.");
 
         }
