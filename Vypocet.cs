@@ -19,10 +19,10 @@ namespace ConsoleApp1
         public void VypocetHodin(long celkemHodin, long chybelHodin, long zbyvaHodin)
         {
             Console.WriteLine("Procento chybejicich hodin ted je: " + Procento(chybelHodin, celkemHodin) + "%.");
-            chybelHodin++;
-            celkemHodin++;
-            if(zbyvaHodin> 1) { 
-            celkemHodin += zbyvaHodin - 1;
+            //chybelHodin++;
+            //celkemHodin++;
+            if(zbyvaHodin> 0) { 
+            celkemHodin += zbyvaHodin;
             }
             Console.WriteLine("Procento chybejicich hodin ted bude: " + Procento(chybelHodin, celkemHodin) + "%.");
 
